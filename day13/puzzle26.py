@@ -1,9 +1,6 @@
 import itertools
 
 
-
-
-
 def find_mirror_row_with_smudge(m):
     for i, row in enumerate(m[:-1]):
         j, k = i, i + 1
